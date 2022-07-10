@@ -10,7 +10,9 @@ window.onload = () => {
     function addFruit() {
         //名前と値段 取得
         let name = eleName.value;
+        eleName.value = "";
         let price = parseInt(elePrice.value);
+        elePrice.value = "";
         //li要素を作成
         const li = document.createElement("li");
         //price属性設定(値段の情報)
