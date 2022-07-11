@@ -34,6 +34,7 @@ window.onload = () => {
           parseInt(fruits[j].getAttribute("price"))
         ) {
           fruitslist.insertBefore(fruits[j], fruits[i]);
+        }
       }
     }
   }
